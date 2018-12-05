@@ -1,16 +1,18 @@
 
 
-.color-green { color: green} 
+.color-green { color: green}
 
 .color-purple { color: purple}
 
-.color-red {color: red}
+.color-red {color: #ff4d4d}
 
 .color-white { color: white}
 
-.color-dodgerblue { color: dodgerblue}
+.color-blue { color: dodgerblue}
 
 .color-yellow {color: yellow}
+
+.color { color: #33cc00}
 
 .txt-size20 { font-size: 20px}
 
@@ -40,7 +42,7 @@
 
 .border-5outset { border: 5px outset}
 
-.bg-green { background-color: green}
+.bg-green { background-color: #33cc00}
 
 /*Les padding*/
 .pad-0 { padding: 0 }
