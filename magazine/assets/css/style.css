@@ -50,8 +50,8 @@ div.menu ul li.button2 a {
 .fond { 
 	background-image: url("../img/fond-top.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	width: 900px;
+	background-size: cover;
+	height: 500px;
 	overflow: visible;
 	
 	}
@@ -59,7 +59,8 @@ div.menu ul li.button2 a {
 .fond { color: white;
 	font-family: Merriweather;
 	font-size: 30px; font-weight: bold;
-	padding: 200px;
+	text-align: center;
+	padding-top: 200px;
 	}
 	
 .para { color: white;
@@ -68,8 +69,9 @@ div.menu ul li.button2 a {
 
 .fond { color: white;}	
 	
-hr { width: 700px;}	
-	
+hr { width: 700px;}
+
+
 	
 	
 	
