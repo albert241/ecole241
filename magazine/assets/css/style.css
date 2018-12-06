@@ -51,7 +51,7 @@ div.menu ul li.button2 a {
 	background-image: url("../img/fond-top.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 500px;
+	height: 450px;
 	overflow: visible;
 	
 	}
@@ -59,8 +59,9 @@ div.menu ul li.button2 a {
 .fond { color: white;
 	font-family: Merriweather;
 	font-size: 30px; font-weight: bold;
-	text-align: center;
-	padding-top: 200px;
+	text-align: left;
+	padding-top: 100px;
+	padding-left: 100px
 	}
 	
 .para { color: white;
@@ -70,6 +71,8 @@ div.menu ul li.button2 a {
 .fond { color: white;}	
 	
 hr { width: 700px;}
+
+.vignette { background-image: "../img/vignette.png"}
 
 
 	
