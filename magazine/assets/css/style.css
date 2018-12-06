@@ -1,0 +1,71 @@
+
+
+@font-face {
+	font-family: motion picture personal;
+	src: url(../fonts/MotionPicture_PersonalUseOnly.ttf)
+}
+
+
+div.navbar ul li.push {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	font-family: Montserrat, sans serif;
+}
+
+div.navbar ul li.push a {
+	text-decoration: none;
+	background-color: #00bf9a;
+	color: white;
+	
+}
+
+div.navbar ul {
+	background-color: #00bf9a;
+}
+
+div.menu ul li.button2 {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+	font-family: Montserrat, sans serif;
+}
+
+div.menu ul li.button2 a {
+	text-decoration: none;
+	color: #8a8a8a;
+}
+
+.titre { text-align: center;
+	font-size: 80px;
+	font-family: motion picture personal;
+	}
+	
+.gris { color: #8a8a8a}	
+
+.vert { color: #00bf9a}
+
+.fond { 
+	background-image: url("../img/fond-top.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 2000px;
+	hieght: 700px;
+	
+	}
+	
+h2 { color: white;
+	font-family: Merriweather;
+	font-size: 30px; font-weight: bold;}
+
+	p { color: white;}	
+	
+hr { width: 700px;}	
+	
+	
+	
+	
+	
+	
+	
+	
