@@ -53,7 +53,6 @@ div.menu ul li.button2 a {
 	background-size: cover;
 	height: 450px;
 	overflow: visible;
-	
 	}
 	
 .fond { color: white;
@@ -70,9 +69,25 @@ div.menu ul li.button2 a {
 
 .fond { color: white;}	
 	
-hr { width: 700px;}
+hr { width: 700px;
+	border: 0.5px solid gray;
+	}
 
-.vignette { background-image: "../img/vignette.png"}
+.vignette { background-image: url("../img/vignette.png");
+			background-repeat: no-repeat;
+			width: 250px;
+			height: 300px;
+			color: white;
+			display: inline-block;
+			margin: 0 12px;
+			font-size: 12px;
+			}
+			
+.input { border-radius: 20px;
+		color: white;
+		background-color: #00bf9a; 
+		padding: 5px;
+		}
 
 
 	
