@@ -11,6 +11,7 @@ div.navbar ul li.push {
 	display: inline-block;
 	padding: 10px;
 	font-family: Montserrat, sans serif;
+	font-size: 12px;
 }
 
 div.navbar ul li.push a {
@@ -29,6 +30,7 @@ div.menu ul li.button2 {
 	display: inline-block;
 	padding: 10px;
 	font-family: Montserrat, sans serif;
+	font-size: 12px;
 }
 
 div.menu ul li.button2 a {
@@ -37,7 +39,7 @@ div.menu ul li.button2 a {
 }
 
 .titre { text-align: center;
-	font-size: 80px;
+	font-size: 60px;
 	font-family: motion picture personal;
 	}
 	
@@ -49,8 +51,7 @@ div.menu ul li.button2 a {
 	background-image: url("../img/fond-top.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	width: auto;
-	hieght: 800px;
+	width: 900px;
 	overflow: visible;
 	
 	}
