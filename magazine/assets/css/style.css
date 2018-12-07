@@ -63,9 +63,9 @@ div.menu ul {
 	overflow: visible;
 	color: white;
 	font-family: Merriweather;
-	font-size: 30px; font-weight: bold;
+	font-size: 25px; font-weight: bold;
 	text-align: left;
-	padding-top: 100px;
+	padding-top: 190px;
 	padding-left: 100px;
 	}
 	
@@ -99,8 +99,20 @@ hr { width: 900px;
 		margin-left: 440px;
 	}
 
-.search { margin-left: 20px;}		
-		
+.search { margin-left: 20px;}
+
+.vignette2 { background-image: url("../img/vignette.png");
+			background-repeat: no-repeat;
+			width: 250px;
+			height: 300px;
+			color: white;
+			display: inline-block;
+			margin: 0 12px;
+			font-size: 12px;
+			padding-top: 100px;
+			}		
+
+.sept { font-size: 10px;}	
 		
 
 	
