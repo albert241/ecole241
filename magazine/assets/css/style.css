@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: motion picture personal;
-	src: url(../fonts/MotionPicture_PersonalUseOnly.ttf)
+	src: url("../fonts/MotionPicture_PersonalUseOnly.ttf")
 }
 
 
@@ -12,6 +12,8 @@ div.navbar ul li.push {
 	padding: 10px;
 	font-family: Montserrat, sans serif;
 	font-size: 12px;
+	font-weight: bold;
+	
 }
 
 div.navbar ul li.push a {
@@ -23,6 +25,7 @@ div.navbar ul li.push a {
 
 div.navbar ul {
 	background-color: #00bf9a;
+	padding-left: 170px;
 }
 
 div.menu ul li.button2 {
@@ -31,11 +34,16 @@ div.menu ul li.button2 {
 	padding: 10px;
 	font-family: Montserrat, sans serif;
 	font-size: 12px;
+	font-weight: bold;
 }
 
 div.menu ul li.button2 a {
 	text-decoration: none;
 	color: #8a8a8a;
+}
+
+div.menu ul {
+	padding-left: 170px;
 }
 
 .titre { text-align: center;
@@ -51,27 +59,24 @@ div.menu ul li.button2 a {
 	background-image: url("../img/fond-top.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 450px;
+	height: 500px;
 	overflow: visible;
-	}
-	
-.fond { color: white;
+	color: white;
 	font-family: Merriweather;
 	font-size: 30px; font-weight: bold;
 	text-align: left;
 	padding-top: 100px;
-	padding-left: 100px
+	padding-left: 100px;
 	}
 	
 .para { color: white;
 		font-family: arial;
 	}	
-
-.fond { color: white;}	
 	
-hr { width: 700px;
+hr { width: 900px;
 	border: 0.5px solid gray;
-	}
+	opacity: 0.1;
+	}	
 
 .vignette { background-image: url("../img/vignette.png");
 			background-repeat: no-repeat;
@@ -81,6 +86,7 @@ hr { width: 700px;
 			display: inline-block;
 			margin: 0 12px;
 			font-size: 12px;
+			padding-top: 100px;
 			}
 			
 .input { border-radius: 20px;
@@ -88,7 +94,14 @@ hr { width: 700px;
 		background-color: #00bf9a; 
 		padding: 5px;
 		}
+		
+.ico {
+		margin-left: 440px;
+	}
 
+.search { margin-left: 20px;}		
+		
+		
 
 	
 	
