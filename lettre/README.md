@@ -1,5 +1,8 @@
 # Lettre
 **Je tape une phrase d'une ligne.**
-'body {
-	color: white;
-	}'
+```css
+	body{
+		color: blue;
+	}```
+
+
