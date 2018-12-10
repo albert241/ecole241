@@ -53,7 +53,7 @@ div.menu ul {
 	
 .gris { color: #8a8a8a}	
 
-.vert { color: #00bf9a}
+.vert { color: #08b597}
 
 .fond { 
 	background-image: url("../img/fond-top.jpg");
@@ -87,11 +87,12 @@ hr { width: 900px;
 			margin: 0 12px;
 			font-size: 12px;
 			padding-top: 100px;
+			text-decoration: none;
 			}
 			
 .input { border-radius: 20px;
 		color: white;
-		background-color: #00bf9a; 
+		background-color: #08b597; 
 		padding: 5px;
 		}
 		
@@ -114,7 +115,13 @@ hr { width: 900px;
 
 .sept { font-size: 10px;}	
 		
+div.vignette a { text-decoration: none;
+				color: white;
+			}
 
+body { padding: 0;
+	margin: 0;
+	}
 	
 	
 	
