@@ -93,7 +93,9 @@ hr { width: 900px;
 .input { border-radius: 20px;
 		color: white;
 		background-color: #08b597; 
-		padding: 5px;
+		padding: 10px;
+		text-decoration: none;
+		font-size: 12px;
 		}
 		
 .ico {
