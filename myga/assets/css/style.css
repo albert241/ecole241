@@ -18,7 +18,7 @@ a.gray:hover {
 	text-shadow:0px 0px 100px black;
 }
 
-a.bleu {
+select.bleu {
 	text-decoration: none;
 	background-color: blue;
 	color: white;
@@ -26,9 +26,10 @@ a.bleu {
 	border-radius: 20px;
 	box-shadow: 0px 0px 25px -2px black;
 	font-family: 'Comfortaa';
+	font-size: 15px;
 }
 
-a.bleu:hover {
+select.bleu:hover {
 	background-color: #3399ff;
 	color: white;
 }
