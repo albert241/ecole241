@@ -32,6 +32,7 @@ select.bleu {
 select.bleu:hover {
 	background-color: #3399ff;
 	color: white;
+	cursor: pointer;
 }
 
 ul {
@@ -83,11 +84,12 @@ input[type=button]:hover {
 }
 
 .mid {
-	background-image: url("../img/Gabon.jpg");
+	background-image: url("../img/content.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 240px;
 	padding: 100px;
+	
 }
 
 .right {
@@ -96,7 +98,8 @@ input[type=button]:hover {
 }
 
 .back {
-	background-color: rgba(192,192,192,0.8);
+	background-color: rgba(192,192,192,0.3);
+	background-size: cover;
 	width: 750px;
 	border-radius: 15px;
 	box-shadow: 0 0 25px -2px black;
@@ -150,7 +153,6 @@ a {
 
 a:hover {
 	color: blue;
-	/**text-decoration: underline;**/
 }
 
 a.yellow:hover {
@@ -158,6 +160,13 @@ a.yellow:hover {
 	text-decoration: underline;
 }
 
+input:focus, select:focus {
+	outline: none;
+}
+
+option {
+	padding: 5px;
+}
 
 
 
