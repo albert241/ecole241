@@ -43,6 +43,10 @@ ul {
 
 footer {
 	background-color: #00a14c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 .link-h {
@@ -89,7 +93,7 @@ input[type=button]:hover {
 	background-size: cover;
 	height: 240px;
 	padding: 100px;
-	
+	background-position: center;
 }
 
 .right {
@@ -98,7 +102,7 @@ input[type=button]:hover {
 }
 
 .back {
-	background-color: rgba(192,192,192,0.3);
+	background-color: rgba(192,192,192,0.9);
 	background-size: cover;
 	width: 750px;
 	border-radius: 15px;
@@ -166,6 +170,14 @@ input:focus, select:focus {
 
 option {
 	padding: 5px;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	position: relative;
 }
 
 
