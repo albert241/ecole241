@@ -1,0 +1,26 @@
+/**header**/
+@font-face {
+	font-family: 'p22-underground';
+	font-style: normal;
+	src: url(../fonts/underg/P22UndergroundCYPro-Book.otf);
+}
+
+header .hd-title {
+	font-family: p22-underground;
+	font-size: 16px;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+.logo a img {
+	width: 130px;
+	height: 28px;
+}
+
+.pic {
+	width: 300px;
+	height: 300px;
+}

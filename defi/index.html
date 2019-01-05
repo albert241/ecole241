@@ -6,12 +6,13 @@
 		<meta name="description" content="Publication d'articles et vente de produits">
 		<meta name="keywords" content="STORIES, FILMS, SHOP">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	
 	<body>
 		<header>
 			<div>
-				<div>
+				<div class="hd-left">
 					<nav>
 						<ul class="menu">
 							<li><a href="#" class="men-list">STORIES</a></li>
@@ -23,16 +24,15 @@
 					</nav>
 					<a href="#">REQUEST INTERVIEW</a>
 					
-					<a href="#">SHOP</a>
-					<i class="fa fa-angle-right"></i>
+					<a href="#" class="hd-title">SHOP<i class="fa fa-angle-right"></i></a>
 					
 					
-					<article>
+					<article class="hd-art">
 						<a href="#" class="sp-list">
 							<div>
 								<h2>Woven Issue Four $18 USD</h2>
 							</div>
-							<img src="assets/img/shop/issue4.jpg" alt="image shop 1">
+							<img src="assets/img/shop/issue4.jpg" alt="image shop 1" class="pic">
 						</a>
 					</article>
 					<article>
@@ -40,7 +40,7 @@
 							<div>
 								<h2>Woven Issue Three $18 USD</h2>
 							</div>
-							<img src="assets/img/shop/issue3.jpg" alt="image shop 2">
+							<img src="assets/img/shop/issue3.jpg" alt="image shop 2" class="pic">
 						</a>
 					</article>
 					<article>
@@ -48,7 +48,7 @@
 							<div>
 								<h2>Woven Issue Two $18 USD $10 USD</h2>
 							</div>
-							<img src="assets/img/shop/issue2.jpg" alt="image shop 3">
+							<img src="assets/img/shop/issue2.jpg" alt="image shop 3" class="pic">
 						</a>
 					</article>
 					<article>
@@ -56,7 +56,7 @@
 							<div>
 								<h2>Woven Postcard Collection $5 USD</h2>
 							</div>
-							<img src="assets/img/shop/postcards.jpg" alt="image shop 4">
+							<img src="assets/img/shop/postcards.jpg" alt="image shop 4" class="pic">
 						</a>
 					</article>	
 					
@@ -64,12 +64,12 @@
 				</div>
 				
 				<div class="logo">
-					<img src="assets/img/logo.svg" alt="logo">
+					<a href="https://wovenmagazine.com/"><img src="assets/img/logo.svg" alt="logo"></a>
 				</div>
 				
 				<div>
-					<a href="#"><i class="fa fa-search"></i></a>
-					<a href="#">CART</a>
+					<a href="#" class="hd-title"><i class="fa fa-search"></i></a>
+					<a href="#" class="hd-title">CART</a>
 				</div>
 			</div>
 			
@@ -175,7 +175,9 @@
 					<h2><a href="#">From Forest to Floor</a></h2>
 					
 					<p>
-						By designing with the entire life cycle of the materials in mind, Jeremy Lee is building sustainability into style.
+						By designing with the entire life cycle of the 
+						materials in mind, Jeremy Lee is building sustainability
+						into style.
 					</p>
 					
 					<time pubdate="2018-12-09" class="date">.09.12.18.</time>
@@ -463,5 +465,110 @@
 			
 			<a href="#">MORE STORIES<i class="fa fa-angle-down"></i></a>
 		</section>
+		
+		<section class="film">
+			<h1>SELECTED FILMS</h1>
+			
+			<article class="video">
+				<iframe src="//player.vimeo.com/video/159979936?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" 
+				width="640" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</article>
+			
+			<article class="video">
+				<iframe src="//player.vimeo.com/video/110611030?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" 
+				width="640" height="340" frameborder="0" 
+				webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</article>
+		</section>
+		
+		<section class="blog">
+			<hr />
+			
+			<h1>FEATURED BLOG POSTS</h1>
+			
+			<div class="blo-art">
+				<a href="#">
+					<img src="assets/img/blog/blog1.jpg" alt="image du blog">
+				</a>
+				<a href="#">
+					<h2>Making Art in the Middle of Nowhere</h2>
+				</a>
+				
+				<p>
+					Exploring a West Texas must-see, firmly planted at the crossroads of Art and Myth.
+				</p>
+			</div>
+			
+			<div class="blo-art">
+				<a href="#">
+					<img src="assets/img/blog/blog2.jpg" alt="image du blog">
+				</a>
+				<a href="#">
+					<h2>Celina Muire</h2>
+				</a>
+				
+				<p>
+					Austin-based woodworker Celina Muire talks to us about process, 
+					pyrography, and the perfectly imperfect nature of making by hand.
+				</p>
+			</div>
+			
+			<div class="blo-art">
+				<a href="#">
+					<img src="assets/img/blog/blog3.jpg" alt="image du blog">
+				</a>
+				<a href="#">
+					<h2>Cookfire</h2>
+				</a>
+				
+				<p>
+					A meal out-of-doors in Mt. Hood, OR with two of Portland’s finest foodies.
+				</p>
+			</div>
+			
+			<div class="blo-art">
+				<a href="#">
+					<img src="assets/img/blog/blog4.jpg" alt="image du blog">
+				</a>
+				<a href="#">
+					<h2>LA Juice Shop</h2>
+				</a>
+				
+				<p>
+					Thoughts on juicing and the place to go for the best fresh, local,
+					and organic beverages in West Hollywood.
+				</p>
+			</div>
+			
+			<a href="#">VISIT BLOG<i class="fa fa-angle-right"></i></a>
+			
+			<hr />
+		</section>
+		
+		<footer>
+			<div class="end">
+				<p><a href="#">Collaborate With Us</a></p>
+			</div>
+			
+			<div class="end">
+				<p><a href="#">Contact Us</a></p>
+			</div>
+			
+			<div class="end">
+				<p><a href="#">Stay In Touch!</a></p>
+			</div>
+			
+			<div class="end">
+				<p><a href="#">FAQ</a></p>
+			</div>
+			
+			<div class="end">
+				<p><a href="#">Terms & Conditions</a></p>
+			</div>
+			
+			<div class="end copy">
+				<p>&copy; WOVEN 2019</p>
+			</div>
+		</footer>
 	</body>
 </html>
