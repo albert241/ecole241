@@ -5,6 +5,25 @@
 	z-index: 1;
 }
 
+.nav-link {
+	color: orange;
+}
+
+.btn1 {
+	background-color: orange;
+	color: white;
+}
+
+.btn1:hover {
+	background-color: white;
+	color: orange;
+}
+
+.nav-link:hover {
+	color: white;
+	text-decoration: underline;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -76,7 +95,7 @@ video {
 
 .title p {
 	font-size: 20px;
-	font-weight: bold;	
+	font-weight: bold;
 }
 
 .title h2 {
@@ -122,7 +141,7 @@ video {
 	position: relative;
 	left: 450px;
 	margin-top: 70px;
-} 
+}
 
 .hauteur {
 	height: 750px;
@@ -171,7 +190,7 @@ video {
 }
 
 .bander {
-	background-color: rgba(0,123,255,0.2);
+	background-color: rgba(255,165,0,0.2);
 	width: 820px;
 	padding: 8px 25px 0 20px;
 	border-radius: 5px;
@@ -181,7 +200,7 @@ video {
 .fly {
 	position: relative;
 	background-color: white;
-	color: #007bbf;
+	color: orange;
 	padding: 10px;
 	border-radius: 20px;
 	right: 50px;
@@ -192,7 +211,7 @@ video {
 }
 
 .fly:hover {
-	background-color: #007bff;
+	background-color: orange;
 	color: white;
 	cursor: pointer;
 }
@@ -244,7 +263,7 @@ video {
 
 .ligne2 {
 	margin-bottom: 30px;
-	
+
 }
 
 .over{
@@ -258,8 +277,8 @@ video {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0,123,255,0.9);
-  border-radius: 6px; 
+  background-color: rgba(255,165,0,0.9);
+  border-radius: 6px;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -299,6 +318,10 @@ video {
 	transform: scale(1.1);
 }
 
+.progress-bar {
+	background-color: orange;
+}
+
 .progbar {
 	background-image: url('../img/albert5.jpg');
 	background-size: cover;
@@ -325,7 +348,7 @@ video {
 .col-3 .card .card-body i {
 	font-size: 15px;
 	margin-left: 7px;
-	color: #007bff;
+	color: orange;
 }
 
 .col-3 img {
@@ -400,9 +423,9 @@ footer {
 
 .barre-html:hover {
 	background-color: white;
-	color: #007bff;
+	color: orange;
 	font-weight: bold;
-	
+
 }
 
 .barre-css {
@@ -412,9 +435,9 @@ footer {
 
 .barre-css:hover {
 	background-color: white;
-	color: #007bff;
+	color: orange;
 	font-weight: bold;
-	
+
 }
 
 .barre-js {
@@ -424,9 +447,9 @@ footer {
 
 .barre-js:hover {
 	background-color: white;
-	color: #007bff;
+	color: orange;
 	font-weight: bold;
-	
+
 }
 
 .barre-btp {
@@ -436,9 +459,9 @@ footer {
 
 .barre-btp:hover {
 	background-color: white;
-	color: #007bff;
+	color: orange;
 	font-weight: bold;
-	
+
 }
 
 .carte-c {
@@ -451,4 +474,8 @@ footer {
 
 .overlink:hover {
 	color: white;
+}
+
+.textspan {
+	color: orange;
 }
