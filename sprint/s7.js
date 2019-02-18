@@ -1,4 +1,3 @@
-let index = 1;
-while (index > 0) {
-index = prompt("Entrez un nombre");
-}
+do {
+  nombre = Number(prompt("Entrez un nombre"));
+} while(nombre > 0);
