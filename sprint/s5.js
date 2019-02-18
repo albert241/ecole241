@@ -1,12 +1,6 @@
-function nombre() {
-  Number(prompt("Entrer un nombre"));
-  if(nombre > 1) {
-    console.log(2);
-  };
-  Number(prompt("Entrer un nombre"));
-  if(nombre < 2) {
-    console.log(1)
-  }
+let nombre = Number(prompt("Entrez un 1 ou 2"));
+if (nombre > 1) {
+  console.log(2);
+} else if (nombre < 2) {
+  console.log(2);
 }
-
-nombre()
