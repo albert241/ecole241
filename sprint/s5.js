@@ -1,6 +1,8 @@
-let nombre = Number(prompt("Entrez un 1 ou 2"));
-if (nombre > 1) {
-  console.log(2);
-} else if (nombre < 2) {
-  console.log(2);
+let nombre1, nombre2;
+nombre1 = Number(prompt("Entrez un nombre svp:"));
+nombre2 = Number(prompt("Entrez un nombre svp:"));
+if(nombre1 > nombre2) {
+  console.log(`${nombre1} est le plus grand`);
+} else {
+  console.log(`${nombre2} est le plus grand`);
 }
