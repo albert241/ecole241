@@ -165,6 +165,11 @@ button {
     background: url(../images/img/4.jpg)center no-repeat fixed
 }
 
+.bg-pattern-x {
+    background: url(../images/img/form.jpg)center no-repeat fixed;
+    background-size: cover;
+}
+
 .bg-pattern-04 {
     background: url(../images/img/5.jpg)center no-repeat fixed
 }
@@ -669,7 +674,7 @@ a:hover {
 .list-social__item a {
     display: block;
     padding: 0 10px;
-    font-size: 13px;
+    font-size: 17px;
     color: #333
 }
 
@@ -2171,7 +2176,7 @@ a:hover {
 }
 
 .media-service-1 .title-number {
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 35px
 }
 
@@ -4750,7 +4755,8 @@ button {
 }
 
 .blog-detail-1 .entry-content blockquote {
-    background: #f8f8f8;
+    background-image: url("../images/drap.jpg");
+    background-size: cover;
     position: relative;
     font-size: 18px;
     color: #222;
@@ -4766,7 +4772,7 @@ button {
 
 .blog-detail-1 .entry-content blockquote:before {
     font-family: themify;
-    content: "\e67f";
+    /**content: "\e67f";**/
     font-size: 87px;
     line-height: 1;
     color: #fff;
@@ -7385,7 +7391,7 @@ button {
 }
 
 .bg-overlay {
-    background: rgba(0, 0, 0, .6);
+    background: rgba(255, 144, 0, 0.6);
     z-index: 0
 }
 
@@ -17305,3 +17311,19 @@ button:focus {
         margin-left: 300px
     }
 }
+
+.pict {
+    height: 70px;
+    filter: grayscale(1.1);
+}
+
+.pict-2 {
+    height: 70px;
+    filter: grayscale(1.1);
+}
+
+.media__text {
+    text-align: justify;
+}
+
+
