@@ -1,1 +1,3 @@
-echo "OkaCode";
+<?php
+    echo "OkaCode"; 
+?>
