@@ -166,7 +166,7 @@ button {
 }
 
 .bg-pattern-x {
-    background: url(../images/img/form.jpg)center no-repeat fixed;
+    background: url(../images/f.JPG)center no-repeat fixed;
     background-size: cover;
 }
 
@@ -182,7 +182,17 @@ button {
     background: #222;
     z-index: 99
 }
-
+.active {
+    color: #f48233 !important;
+}
+.man-w-1 {
+    width: 380px;
+    height: 253px;
+}
+.man-w-2 {
+    width: 790px;
+    height: 526.667px;
+}
 @-webkit-keyframes revealIn {
     0% {
         width: 0
@@ -997,7 +1007,6 @@ a:hover {
    color:#ff6633
 }
 .media-about .desc {
-    text-transform: uppercase;
     font-size: 13px;
     letter-spacing: .3em
 }
@@ -2163,9 +2172,7 @@ a:hover {
 .media-service-1 .media__img-inner {
     width: 100%;
     height: 100%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%
+    
 }
 
 .media-service-1 .media__img-inner>img {
@@ -2235,7 +2242,7 @@ a:hover {
 
 .media-statistic .media__icon {
     font-size: 100px;
-    color: #ebebeb;
+    color: #f06b3c;
     margin-left: -22px
 }
 
@@ -4755,8 +4762,10 @@ button {
 }
 
 .blog-detail-1 .entry-content blockquote {
-    background-image: url("../images/drap.jpg");
+    background-image: url("../images/drap.jpeg");
     background-size: cover;
+
+    background-position: 25% 45%;
     position: relative;
     font-size: 18px;
     color: #222;
@@ -5305,7 +5314,7 @@ button {
 }
 
 .menu a:hover {
-    color: #333
+    color: #f48938
 }
 
 .menu-item {
@@ -17314,16 +17323,16 @@ button:focus {
 
 .pict {
     height: 70px;
-    filter: grayscale(1.1);
 }
 
 .pict-2 {
     height: 70px;
-    filter: grayscale(1.1);
 }
 
 .media__text {
     text-align: justify;
 }
 
-
+.hauteur {
+    height: 191px;
+}
