@@ -51,7 +51,8 @@ html {
     font-family: Poppins, Arial, "Helvetica Neue", sans-serif
 }
 .logo1{
-    width: 130px;
+    width: auto;
+    height: 60px;
 }
 .au-rating,
 .box--beside .box__head {
@@ -184,6 +185,7 @@ button {
 }
 .active {
     color: #f48233 !important;
+    text-decoration: underline !important;
 }
 .man-w-1 {
     width: 380px;
