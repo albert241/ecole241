@@ -89,12 +89,12 @@ video {
 }
 
 .title h1 {
-	font-size: 17px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
 .title p {
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: bold;
 }
 
@@ -159,6 +159,7 @@ video {
 .paddi {
 	height: 1500px;
 	padding-top: 100px;
+	position: relative;
 }
 
 .back {
@@ -328,7 +329,7 @@ video {
 	background-attachment: fixed;
 	background-position: center;
 	height: 350px;
-	padding-top: 50px;
+	padding-top: 5px;
 }
 
 .evol .col p {
@@ -441,7 +442,7 @@ footer {
 }
 
 .barre-js {
-	width: 10%;
+	width: 45%;
 	transition: background-color 0.5s;
 }
 
@@ -453,11 +454,23 @@ footer {
 }
 
 .barre-btp {
-	width: 50%;
+	width: 70%;
 	transition: background-color 0.5s;
 }
 
 .barre-btp:hover {
+	background-color: white;
+	color: orange;
+	font-weight: bold;
+
+}
+
+.barre-php {
+	width: 45%;
+	transition: background-color 0.5s;
+}
+
+.barre-php:hover {
 	background-color: white;
 	color: orange;
 	font-weight: bold;
@@ -478,4 +491,43 @@ footer {
 
 .textspan {
 	color: orange;
+}
+
+.linet {
+	background-color: rgba(255, 165, 0, 0.4);
+	width: 4px;
+	height: 850px;
+	position: absolute;
+	left: 47%;
+	top: 20%;
+}
+
+.circlet1 {
+	background-color: orange;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 46.49%;
+	top: 23%;
+	border-radius: 100%;
+}
+
+.circlet2 {
+	background-color: orange;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 46.49%;
+	top: 42%;
+	border-radius: 100%;
+}
+
+.circlet3 {
+	background-color: orange;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 46.49%;
+	top: 65%;
+	border-radius: 100%;
 }
