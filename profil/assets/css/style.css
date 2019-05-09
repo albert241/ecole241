@@ -81,7 +81,7 @@ video {
 .vidbtn {
 	position: absolute;
 	top: 120px;
-	left: 640px;
+	left: 50%;
 	z-index: 1;
 	border-radius: 30px;
 	padding: 15px 20px;
@@ -236,7 +236,7 @@ video {
 }
 
 .wonderful {
-	padding-top: 100px;
+	padding: 100px 0 100px 0;
 }
 
 .titre h1 {
@@ -249,7 +249,7 @@ video {
 }
 
 .workout {
-	padding: 100px 0 100px 0;
+	padding: 50px 0 10px 0;
 }
 
 .work {
@@ -366,8 +366,8 @@ video {
 }
 
 .clients {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 
@@ -530,4 +530,32 @@ footer {
 	left: 46.49%;
 	top: 65%;
 	border-radius: 100%;
+}
+
+.relativ {
+	position: relative;
+}
+
+.picture-1 {
+	position: absolute;
+	left: 1%;
+	top: 15%;
+}
+
+.picture-2 {
+	position: absolute;
+	left: 25%;
+	top: 30%;
+}
+
+.picture-3 {
+	position: absolute;
+	left: 1%;
+	top: 55%;
+}
+
+.picture-4 {
+	position: absolute;
+	left: 25%;
+	top: 75%;
 }
