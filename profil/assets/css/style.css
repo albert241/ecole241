@@ -540,22 +540,27 @@ footer {
 	position: absolute;
 	left: 1%;
 	top: 15%;
+	transition: all .2s ease-in-out;
 }
 
 .picture-2 {
 	position: absolute;
 	left: 25%;
 	top: 30%;
+	transition: all .2s ease-in-out;
 }
 
 .picture-3 {
 	position: absolute;
 	left: 1%;
 	top: 55%;
+	transition: all .2s ease-in-out;
 }
 
 .picture-4 {
 	position: absolute;
 	left: 25%;
 	top: 75%;
+	transition: all .2s ease-in-out;
 }
+
