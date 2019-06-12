@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'futura-book';
+    src: url('../font/futura/Futura\ Book\ font.ttf');
+    font-family: 'futura-light';
+    src: url('../font/futura/futura\ light\ bt.ttf')
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'futura-book', sans-serif;
+}
+
+p {
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: auto 13%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    width: 611px;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-around;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #cccccc;
+}
+
+.navbar ul li a.active {
+    color: #605E5E;
+}
+
+.banner {
+    background-image: url(../img/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-family: 'futura-book', sans-serif;
+    font-size: 40px;
+    letter-spacing: 18px;
+    font-weight: 400;
+}
+
+.light {
+    font-family: 'futura-light', sans-serif;
+}
+
+.tag-link {
+    color: #2f2e2e;
+    border: solid 1px #2f2e2e;
+    font-size: 14px;
+    padding: 3px;
+}
+
+article {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article p {
+    text-align: justify;
+    color: #2f2e2e;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+article div {
+    display: inline-block;
+}
+
+article div h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.article-title {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-family: 'futura-light', sans-serif;
+    font-weight: 400;
+}
+
+article small {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    width: 100%;
+    margin-left: 50px;
+    font-family: 'futura-book', sans-serif;
+}
+
+aside div .logo-berm {
+    margin-left: 60px;
+}
+
+aside p:nth-of-type(1) {
+    text-align: center;
+}
+
+aside p:nth-of-type(2) {
+    text-align: justify;
+}
+
+aside p span {
+    font-weight: 600;
+}
+
+aside span.icon {
+    margin: auto 27%;
+}
+
+aside span img {
+    margin-right: 10px;
+}
+
+aside h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+aside h2:nth-of-type(1) {
+    text-align: center;
+}
+
+.aside-content a {
+    color: #2F2E2E;
+}
+
+.aside-content small {
+    color: #2F2E2E;
+}
+
+.aside-img {
+    height: 47px;
+    margin-right: 10px;
+}
+
+figure {
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+figure a img {
+    height: 100%;
+}
+
+.read-link {
+    color: #2f2e2e;
+    border: solid 1px #2f2e2e;
+    font-size: 14px;
+    padding: 8px 250px;
+}
+
+section nav {
+    position: relative;
+    left: 18%;
+}
+
+.archives-list {
+    padding: 0;
+}
+
+.archives-list li {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.archives-list li a {
+    color: #2F2E2E;
+    font-size: 14px;
+}
+
+.foot-img {
+    height: 160px;
+}
+
+.pagination ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 9px;
+    border: solid 1px black;
+    padding: 5px 10px;
+}
+
+.pagination ul li a {
+    color: #2f2e2e;
+    font-size: 14px
+}
+
+footer {
+    background-color: black;
+    padding: 20px 0;
+}
+
+footer div {
+    margin: auto 20%;
+    color: white;
+    text-align: center;
+    font-family: 'futura-light', sans-serif;
+}
+
+footer div h1 {
+    font-weight: 400;
+    margin: 3px 0;
+}
+
+footer div p {
+    margin: 3px 0;
+}
+
+footer div small {
+    margin-bottom: 10px;
+}
+
+
+
+
