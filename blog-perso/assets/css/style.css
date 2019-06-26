@@ -39,8 +39,11 @@ a.navbar-brand {
     font-size: 30px;
 }
 
-.carousel-caption {
-    margin-bottom: 180px;
+
+
+.carousel-caption h2 {
+    font-size: 60px;
+    font-family: 'futura-light', sans-serif;
 }
 
 div h2 {
@@ -50,6 +53,40 @@ div h2 {
 
 .col-xl-4 h2, .col-md-4 h2 {
     font-size: 20px;
+}
+
+.card-body .btn {
+    border: none;
+    background-image: -moz-linear-gradient(0deg, #1c1b29 0%, #d0d9da 48%, #1c1b29 100%);
+    background-image: -webkit-linear-gradient(0deg, #1c1b29 0%, #d0d9da 48%, #1c1b29 100%);
+    background-image: -ms-linear-gradient(0deg, #1c1b29 0%, #d0d9da 48%, #1c1b29 100%);
+    padding: 7px 30px;
+    background-size: 200%;
+    transition: all 300ms linear 0s;
+}
+
+.card-body a:hover {
+    background-position: right center;
+}
+
+form button.btn {
+    border: none;
+    background-image: -moz-linear-gradient(0deg, #1c1b29 0%, #d0d9da 48%, #1c1b29 100%);
+    background-image: -webkit-linear-gradient(0deg, #1c1b29 0%, #d0d9da 48%, #1c1b29 100%);
+    background-image: -ms-linear-gradient(0deg, #1c1b29 0%, #d0d9da 48%, #1c1b29 100%);
+    padding: 7px 30px;
+    background-size: 200%;
+    transition: all 300ms linear 0s;
+}
+
+form button.btn:hover {
+    background-position: right center;
+}
+
+.dropdown-menu {
+    background-image: -moz-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
+    background-image: -webkit-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
+    background-image: -ms-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
 }
 
 div img.w-100 {
@@ -94,9 +131,9 @@ h5 a {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: -moz-linear-gradient(0deg, #0f0f16 0%, #d0d9da 100%);
-  background-image: -webkit-linear-gradient(0deg, #0f0f16 0%, #d0d9da 100%);
-  background-image: -ms-linear-gradient(0deg, #0f0f16 0%, #d0d9da 100%);
+  background-image: -moz-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
+  background-image: -webkit-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
+  background-image: -ms-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
   opacity: 0.851;
   overflow: hidden;
   width: 100%;
@@ -117,9 +154,19 @@ h5 a {
     text-align: center;
   }
 
-  .text a {
+.text a {
     color: white;
   }
+
+.card-body h5 a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+div ul li a:hover {
+    color: #666666;
+    text-decoration: none;
+}
 
 h6 {
     font-family: 'Lobster', cursive; 
