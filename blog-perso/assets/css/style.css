@@ -25,8 +25,9 @@ div nav.navbar {
 
 
 
-.navbar a {
-    color: #fff;
+
+.navbar a:hover {
+    color: #666666;
 }
 
 .nav-link {
@@ -34,12 +35,19 @@ div nav.navbar {
     font-size: 17px;
 }
 
+.nav-link:hover {
+    color: #666666;
+}
+
 a.navbar-brand {
     font-family: 'Lobster', cursive;
     font-size: 30px;
 }
 
-
+.banner {
+    background-image: url(../img/banner.png);
+    background-size: cover;
+}
 
 .carousel-caption h2 {
     font-size: 60px;
@@ -49,6 +57,15 @@ a.navbar-brand {
 div h2 {
     font-size: 25px;
     font-family: 'Lobster', cursive;
+}
+
+.article-title {
+    font-size: 28px;
+    font-family: 'futura-light', sans-serif;   
+}
+
+.comment {
+    font-size: 20px;
 }
 
 .col-xl-4 h2, .col-md-4 h2 {
@@ -87,6 +104,10 @@ form button.btn:hover {
     background-image: -moz-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
     background-image: -webkit-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
     background-image: -ms-linear-gradient(0deg, #1c1b29 0%, #d0d9da 100%);
+}
+
+.dropdown-item {
+    color: #fff;
 }
 
 div img.w-100 {
@@ -163,6 +184,15 @@ h5 a {
     text-decoration: none;
 }
 
+.card-title a {
+    color: black;
+}
+
+.card-title a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
 div ul li a:hover {
     color: #666666;
     text-decoration: none;
@@ -174,4 +204,19 @@ h6 {
 
 div p a {
     color: #fff;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: #000;
+}
+
+.foot-menu p a:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+.contact-menu p a:hover {
+    color: #666666;
+    text-decoration: none; 
 }
