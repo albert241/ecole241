@@ -5,6 +5,15 @@
     src: url('../font/futura/futura\ light\ bt.ttf')
 }
 
+@media screen and (min-width: 1280px) {
+    .profil {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+
+
+
 
 body {
     padding: 0;
@@ -55,6 +64,11 @@ a.navbar-brand {
 }
 
 div h2 {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+}
+
+div h1 {
     font-size: 25px;
     font-family: 'Lobster', cursive;
 }
@@ -219,4 +233,43 @@ footer {
 .contact-menu p a:hover {
     color: #666666;
     text-decoration: none; 
+}
+
+.about-text {
+    font-size: 16px;
+}
+
+.about-text span {
+    font-family: 'lobster', cursive;
+}
+
+.contact-text {
+    background-image: -moz-linear-gradient(0deg, #1c1b29 0%, #adadad 48%, #1c1b29 100%);
+    background-image: -webkit-linear-gradient(0deg, #1c1b29 0%, #adadad 48%, #1c1b29 100%);
+    background-image: -ms-linear-gradient(0deg, #1c1b29 0%, #adadad 48%, #1c1b29 100%);
+    padding: 40px 30px;
+    text-align: center;
+    color: #fff;
+    background-size: 200%;
+    transition: all 300ms linear 0s;
+}
+
+.contact-text:hover {
+    background-position: right center;
+}
+
+.contact-text span {
+    font-family: 'lobster', cursive;
+}
+
+h3.comment {
+    font-family: 'lobster', cursive;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.col-xl-6 img {
+    width: 100%;
 }
