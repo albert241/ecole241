@@ -156,6 +156,11 @@ h5 a {
     border: none;
 }
 
+.pagination li a:hover {
+    color: #666666;
+    border: none;
+}
+
 .over{
 	position: relative;
 	padding: 0;
@@ -272,4 +277,13 @@ h3.comment {
 
 .col-xl-6 img {
     width: 100%;
+}
+
+div a i {
+    color: #fff;
+}
+
+div a i:hover {
+    color: #666666;
+    text-decoration: none;
 }
